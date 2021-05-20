@@ -1,6 +1,6 @@
 {
   "name": "denti",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a package to hash and identify values",
   "main": "index.js",
   "scripts": {
