@@ -1,7 +1,7 @@
 {
-  "name": "quory",
+  "name": "denti",
   "version": "1.0.0",
-  "description": "",
+  "description": "a package to hash and identify values",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

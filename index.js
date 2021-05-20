@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const uuidV5 = require('uuid/v5')
+const uuid = require('uuid')
 const namespace = 'a482c5af-f8d2-4f4a-86ed-978d15e95d17'
 
 module.exports = function (config = {}) {
@@ -62,6 +62,6 @@ module.exports = function (config = {}) {
   }
 
   function createId (text) {
-    return uuidV5(text, ns)
+    return uuid.v5(text.toString(), ns)
   }
 }
